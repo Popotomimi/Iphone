@@ -1,0 +1,335 @@
+/* Nav Bar */
+
+nav {
+    background-color: #222;
+    padding: 5px;
+}
+
+nav svg{
+    font-size: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+    margin: 50px;
+    transition: .5s;
+    opacity: 1;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a:hover{
+    opacity: 2;
+}
+
+/* Div Buy */
+
+.btn-buy {
+    background-color: #1C7DFF;
+    color: #FFF;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 1rem;
+    opacity: .9;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    opacity: 1;
+}
+
+.buy {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid 1px #D3D3D3;
+}
+
+.buy span{
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.buy ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy li{
+    margin-right: 15px;
+}
+
+.iPhonePro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Promo */
+
+.promo {
+    background-color: #d3d3d38c;
+    padding: 5px;
+}
+
+.promo a {
+    color: #1C7DFF;
+    text-decoration: none;
+}
+
+/* Tudo Pro */
+
+.iphone {
+    font-weight: 600;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+
+.title h1 {
+    font-size: 5rem;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.iphone button {
+    background-color: #1C7DFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    color: #FFF;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.iphone button:hover {
+    font-weight: bold;
+}
+
+.grey {
+    color: #808080;
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+.p-transparent {
+    color: #222222d8;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/* Banner */
+
+.btns-colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns-colors button {
+    padding: .5rem;
+    border-radius: 22222px;
+    border: solid 2px #FFF;
+    box-shadow: 1px 1px 1px 2px #222222da;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.verde {
+    background-color: #526134;
+}
+
+.prata {
+    background-color: #A3A2A0;
+}
+
+.dourado {
+    background-color: #DAA520;
+}
+
+.grafite {
+    background-color: #474A51;
+}
+
+.azul {
+    background-color: #87CEEB;
+}
+
+.btns-colors ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns-colors li {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    margin-top: 100px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    padding: 150px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer span {
+    font-size: 100px;
+    color: #FFF;
+}
+
+ul {
+    list-style: none;
+}
+
+.insta-footer {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #1c7effb0;
+    transition: .5s;
+}
+
+footer a:hover {
+    color: #1a6bd68e;
+}
+
+
+.title {
+    font-weight: bold;
+    color: #FFF;
+}
+
+.colunm-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colunm-two li {
+    margin-right: 55px;
+}
+
+.apple svg {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.apple svg:hover {
+    color: #222;
+    transition: .5s;
+}
+
+/* Responsividade */
+
+@media (max-width: 1540px) {
+
+/* Nav Bar */
+
+.navbar a {
+    margin: 30px;
+}
+
+#main-content {
+    overflow: hidden;
+}
+
+/* Div Buy */
+
+.buy {
+    padding: 5px;
+}
+
+}
+
+@media (max-width: 1170px) {
+
+/* Nav Bar */
+    
+.navbar a {
+    margin: 15px;
+}
+    
+}
+
+@media (max-width: 860px) {
+
+/* Nav Bar */
+
+.navResponse {
+    display: none;
+}
+
+/* Div Buy */
+
+.buy span {
+    font-size: 1.2rem;
+}
+
+.buy li {
+    font-size: 15px;
+}
+
+/* Tudo Pro */
+
+.title h1 {
+    font-size: 3.5rem;
+}
+
+.title p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Banner */
+
+.btns-colors li {
+    margin: 5px;
+}
+
+/* Footer */
+footer {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer svg {
+    margin: 50px 0px;
+}
+        
+}
